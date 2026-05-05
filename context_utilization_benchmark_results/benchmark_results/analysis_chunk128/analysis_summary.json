@@ -1,0 +1,63 @@
+{
+  "chunk_size": 128,
+  "efficiency": {
+    "inputxgrad": {
+      "mean_time_s": 8.053333333333333,
+      "std_time_s": 3.2155476464619004,
+      "mean_vram_mb": 9308.848333333333,
+      "std_vram_mb": 2146.541207863633,
+      "mean_forward_passes": 1,
+      "std_forward_passes": 0.0,
+      "complexity": "O(1) forward + 1 backward pass",
+      "script_runtime_s": 54.70602083206177
+    },
+    "attention_mask": {
+      "mean_time_s": 17.011666666666667,
+      "std_time_s": 6.226265065564321,
+      "mean_vram_mb": 3875.6416666666664,
+      "std_vram_mb": 760.4224117532744,
+      "mean_forward_passes": 2,
+      "std_forward_passes": 0.0,
+      "complexity": "O(ceil(m/B)+1) forward passes",
+      "script_runtime_s": 112.15189933776855
+    },
+    "deletion": {
+      "mean_time_s": 18.858333333333334,
+      "std_time_s": 8.90570023449401,
+      "mean_vram_mb": 3147.621666666667,
+      "std_vram_mb": 45.550790296839686,
+      "mean_forward_passes": 8.833333333333334,
+      "std_forward_passes": 3.8686776379877745,
+      "complexity": "O(m+1) forward passes",
+      "script_runtime_s": 123.12798380851746
+    }
+  },
+  "correlations": {
+    "inputxgrad_vs_attention_mask": {
+      "pearson_r": 0.4273132755215336,
+      "pearson_p": 0.002737788913670213,
+      "spearman_r": 0.41140798964142744,
+      "spearman_p": 0.004066732017057772,
+      "n_points": 47
+    },
+    "inputxgrad_vs_deletion": {
+      "pearson_r": 0.13326445465635595,
+      "pearson_p": 0.37185404093676155,
+      "spearman_r": 0.34882583592591104,
+      "spearman_p": 0.016258874719182293,
+      "n_points": 47
+    },
+    "attention_mask_vs_deletion": {
+      "pearson_r": 0.8979669391775259,
+      "pearson_p": 1.1902361352790328e-17,
+      "spearman_r": 0.898828790869002,
+      "spearman_p": 9.926239253284669e-18,
+      "n_points": 47
+    }
+  },
+  "methods_completed": [
+    "inputxgrad",
+    "attention_mask",
+    "deletion"
+  ]
+}

@@ -1,0 +1,526 @@
+[
+  {
+    "prompt_tokens": 434,
+    "num_chunks": 2,
+    "chunk_size": 256,
+    "baseline_text": " The authentication token assigned to experiment KAPPA is \"9NT4-V5UY-BHKC\". To answer this question, I looked for the phrase \"",
+    "ablated_texts": [
+      " The authentication token assigned to experiment KAPPA is 1234567890abcdefg. This token is used for secure communication between",
+      " including those for goods, services, labor, capital, and financial assets.\n\nBased on this passage, which event marked the beginning of the Renaissance?\n\nA) The"
+    ],
+    "chunk_influences": [
+      {
+        "chunk_index": 0,
+        "start_token": 0,
+        "end_token": 256,
+        "semantic_similarity": 0.933054,
+        "influence_score": 0.066946,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 1,
+        "start_token": 256,
+        "end_token": 434,
+        "semantic_similarity": -0.067503,
+        "influence_score": 1.067503,
+        "logprob_drop": 0.0
+      }
+    ],
+    "eucr": {
+      "0.01": 1.0,
+      "0.05": 1.0,
+      "0.1": 0.5,
+      "0.2": 0.5
+    },
+    "pwup": {
+      "B": 0,
+      "M": 0.059,
+      "E": 0.941
+    },
+    "gud": 0.173859,
+    "profile": [
+      {
+        "chunk_index": -1,
+        "wall_time_s": 9.7309,
+        "peak_vram_mb": 3103.5
+      },
+      {
+        "chunk_index": 0,
+        "wall_time_s": 8.6795,
+        "peak_vram_mb": 3080.24
+      },
+      {
+        "chunk_index": 1,
+        "wall_time_s": 9.2361,
+        "peak_vram_mb": 3087.32
+      }
+    ]
+  },
+  {
+    "prompt_tokens": 429,
+    "num_chunks": 2,
+    "chunk_size": 256,
+    "baseline_text": " FAZZ-92SD-W4SG\nThe verification key for mission PSI is \"FAZZ-92SD-W4SG\". This key was used",
+    "ablated_texts": [
+      " Verification keys are used to verify that messages have not been altered during transmission or storage. They are generated using a cryptographic algorithm based on the message content and a secret",
+      " them. Entanglement has been observed in various physical systems, including photons, atoms, and even macroscopic objects like superconductors.\n\nBased on this passage"
+    ],
+    "chunk_influences": [
+      {
+        "chunk_index": 0,
+        "start_token": 0,
+        "end_token": 256,
+        "semantic_similarity": 0.439007,
+        "influence_score": 0.560993,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 1,
+        "start_token": 256,
+        "end_token": 429,
+        "semantic_similarity": -0.030774,
+        "influence_score": 1.030774,
+        "logprob_drop": 0.0
+      }
+    ],
+    "eucr": {
+      "0.01": 1.0,
+      "0.05": 1.0,
+      "0.1": 1.0,
+      "0.2": 1.0
+    },
+    "pwup": {
+      "B": 0,
+      "M": 0.3524,
+      "E": 0.6476
+    },
+    "gud": 0.149315,
+    "profile": [
+      {
+        "chunk_index": -1,
+        "wall_time_s": 2.1479,
+        "peak_vram_mb": 3103.07
+      },
+      {
+        "chunk_index": 0,
+        "wall_time_s": 2.0616,
+        "peak_vram_mb": 3079.78
+      },
+      {
+        "chunk_index": 1,
+        "wall_time_s": 0.4417,
+        "peak_vram_mb": 3087.32
+      }
+    ]
+  },
+  {
+    "prompt_tokens": 770,
+    "num_chunks": 4,
+    "chunk_size": 256,
+    "baseline_text": " XMP5-BWWB-Z3DG\nYou're correct! The passphrase used to unlock vault ZEPHYR is indeed \"XMP5-BWW",
+    "ablated_texts": [
+      " The passphrase used to unlock vault ZEPHYR is \"XMP5-BWWB-Z3DG\". \n\nThis answer directly addresses the question posed in the",
+      " To answer the question \"What is the passphrase used to unlock vault ZEPHYR?\", I would need to examine the provided text for any mention of a vault",
+      " The Amazon River flows through this vast region, providing water and nutrients essential for life. However, deforestation threatens biodiversity and climate stability. Conservation efforts, including re",
+      "The answer is:\n\n\"XMP5-BWWB-Z3DG\""
+    ],
+    "chunk_influences": [
+      {
+        "chunk_index": 0,
+        "start_token": 0,
+        "end_token": 256,
+        "semantic_similarity": 0.911967,
+        "influence_score": 0.088033,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 1,
+        "start_token": 256,
+        "end_token": 512,
+        "semantic_similarity": 0.765102,
+        "influence_score": 0.234898,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 2,
+        "start_token": 512,
+        "end_token": 768,
+        "semantic_similarity": -0.143243,
+        "influence_score": 1.143243,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 3,
+        "start_token": 768,
+        "end_token": 770,
+        "semantic_similarity": 0.610609,
+        "influence_score": 0.389391,
+        "logprob_drop": 0.0
+      }
+    ],
+    "eucr": {
+      "0.01": 1.0,
+      "0.05": 1.0,
+      "0.1": 0.75,
+      "0.2": 0.75
+    },
+    "pwup": {
+      "B": 0.0474,
+      "M": 0.7427,
+      "E": 0.2099
+    },
+    "gud": 0.096205,
+    "profile": [
+      {
+        "chunk_index": -1,
+        "wall_time_s": 9.022,
+        "peak_vram_mb": 3135.69
+      },
+      {
+        "chunk_index": 0,
+        "wall_time_s": 9.0097,
+        "peak_vram_mb": 3111.22
+      },
+      {
+        "chunk_index": 1,
+        "wall_time_s": 0.4643,
+        "peak_vram_mb": 3111.22
+      },
+      {
+        "chunk_index": 2,
+        "wall_time_s": 0.4683,
+        "peak_vram_mb": 3111.22
+      },
+      {
+        "chunk_index": 3,
+        "wall_time_s": 1.115,
+        "peak_vram_mb": 3135.22
+      }
+    ]
+  },
+  {
+    "prompt_tokens": 799,
+    "num_chunks": 4,
+    "chunk_size": 256,
+    "baseline_text": " EWQ7-7AVU-DTSE To answer the question, I'll look for the recovery phrase associated with account SIGMA within the provided text:\n\n",
+    "ablated_texts": [
+      " The recovery phrase for account SIGMA is \"EWQ7-7AVU-DTSE\". \n\nThis phrase appears to be a unique identifier or code associated",
+      " To answer this question, I need to identify the specific piece of information about the recovery phrase for account SIGMA mentioned in the given text. However, there is",
+      " EWQ7-7AVU-DTSE To answer the question, I'll look for the recovery phrase associated with account SIGMA within the provided text:\n\n",
+      " fifth century led to the emergence of medieval kingdoms.\n\nThe term \"digital divide\" refers to disparities between those who have access to technology and those who do not."
+    ],
+    "chunk_influences": [
+      {
+        "chunk_index": 0,
+        "start_token": 0,
+        "end_token": 256,
+        "semantic_similarity": 0.889748,
+        "influence_score": 0.110252,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 1,
+        "start_token": 256,
+        "end_token": 512,
+        "semantic_similarity": 0.889854,
+        "influence_score": 0.110146,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 2,
+        "start_token": 512,
+        "end_token": 768,
+        "semantic_similarity": 1.0,
+        "influence_score": 0.0,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 3,
+        "start_token": 768,
+        "end_token": 799,
+        "semantic_similarity": -0.050519,
+        "influence_score": 1.050519,
+        "logprob_drop": 0.0
+      }
+    ],
+    "eucr": {
+      "0.01": 0.75,
+      "0.05": 0.75,
+      "0.1": 0.75,
+      "0.2": 0.25
+    },
+    "pwup": {
+      "B": 0.0867,
+      "M": 0.0867,
+      "E": 0.8266
+    },
+    "gud": 0.137349,
+    "profile": [
+      {
+        "chunk_index": -1,
+        "wall_time_s": 8.4676,
+        "peak_vram_mb": 3136.99
+      },
+      {
+        "chunk_index": 0,
+        "wall_time_s": 8.4745,
+        "peak_vram_mb": 3113.4
+      },
+      {
+        "chunk_index": 1,
+        "wall_time_s": 0.4476,
+        "peak_vram_mb": 3113.41
+      },
+      {
+        "chunk_index": 2,
+        "wall_time_s": 0.4334,
+        "peak_vram_mb": 3113.41
+      },
+      {
+        "chunk_index": 3,
+        "wall_time_s": 0.4394,
+        "peak_vram_mb": 3135.22
+      }
+    ]
+  },
+  {
+    "prompt_tokens": 1526,
+    "num_chunks": 6,
+    "chunk_size": 256,
+    "baseline_text": " The serial number assigned to unit BEACON is \"ZL73-53J3-D55H\". To answer this question, I looked",
+    "ablated_texts": [
+      " The serial number assigned to unit BEACON is \"ZL73-53J3-D55H\". \n\nThis serial number provides a unique",
+      " ZL73-53J3-D55H\n\nThis answer is derived directly from the given text, where it explicitly states: \"The serial",
+      " Based on the provided text, there is no mention of any units or identifiers specifically labeled \"BEACON\" nor does it contain any numerical references related to a",
+      " The serial number assigned to unit BEACON is \"ZL73-53J3-D55H\". To determine this, I looked for",
+      " ZL73-53J3-D55H\n\nThis answer is derived directly from the first sentence of the provided text, where it explicitly states",
+      " gravitational waves emitted as they evaporate over cosmic timescales.\n\nThe term \"quantum\" refers to the discrete nature of energy levels in atoms and subatomic particles"
+    ],
+    "chunk_influences": [
+      {
+        "chunk_index": 0,
+        "start_token": 0,
+        "end_token": 256,
+        "semantic_similarity": 0.974967,
+        "influence_score": 0.025033,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 1,
+        "start_token": 256,
+        "end_token": 512,
+        "semantic_similarity": 0.522052,
+        "influence_score": 0.477948,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 2,
+        "start_token": 512,
+        "end_token": 768,
+        "semantic_similarity": 0.67628,
+        "influence_score": 0.32372,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 3,
+        "start_token": 768,
+        "end_token": 1024,
+        "semantic_similarity": 0.990006,
+        "influence_score": 0.009994,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 4,
+        "start_token": 1024,
+        "end_token": 1280,
+        "semantic_similarity": 0.340981,
+        "influence_score": 0.659019,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 5,
+        "start_token": 1280,
+        "end_token": 1526,
+        "semantic_similarity": 0.017956,
+        "influence_score": 0.982044,
+        "logprob_drop": 0.0
+      }
+    ],
+    "eucr": {
+      "0.01": 0.8333,
+      "0.05": 0.6667,
+      "0.1": 0.6667,
+      "0.2": 0.6667
+    },
+    "pwup": {
+      "B": 0.203,
+      "M": 0.1347,
+      "E": 0.6623
+    },
+    "gud": 0.236968,
+    "profile": [
+      {
+        "chunk_index": -1,
+        "wall_time_s": 9.0044,
+        "peak_vram_mb": 3202.69
+      },
+      {
+        "chunk_index": 0,
+        "wall_time_s": 8.9888,
+        "peak_vram_mb": 3179.46
+      },
+      {
+        "chunk_index": 1,
+        "wall_time_s": 0.4555,
+        "peak_vram_mb": 3179.47
+      },
+      {
+        "chunk_index": 2,
+        "wall_time_s": 0.4475,
+        "peak_vram_mb": 3179.47
+      },
+      {
+        "chunk_index": 3,
+        "wall_time_s": 0.4534,
+        "peak_vram_mb": 3179.47
+      },
+      {
+        "chunk_index": 4,
+        "wall_time_s": 0.4451,
+        "peak_vram_mb": 3179.47
+      },
+      {
+        "chunk_index": 5,
+        "wall_time_s": 3.5068,
+        "peak_vram_mb": 3180.38
+      }
+    ]
+  },
+  {
+    "prompt_tokens": 1538,
+    "num_chunks": 7,
+    "chunk_size": 256,
+    "baseline_text": " 3VLQ-XS38-ZXKX\n\nTo answer the question, we need to identify the recovery phrase for account OMICRON. According",
+    "ablated_texts": [
+      " The recovery phrase for account OMICRON is \"3VLQ-XS38-ZXKX\". \n\nThis phrase was likely created to help users remember",
+      " 3VLQ-XS38-ZXKX\n\nTo answer the question, I'll look for the word \"OMICRON\" in the given",
+      " 3VLQ-XS38-ZXKX\n\nThis answer is derived directly from the given text, where the recovery phrase for account OMICRON",
+      " To answer the question \"What is the recovery phrase for account OMICRON?\", I will follow these steps:\n\n1. Identify any mentions of the term \"OM",
+      " 3VLQ-XS38-ZXKX\n\nTo answer this question, I need to identify the key pieces of information provided in the text:\n\n",
+      " 1991 revolutionized how people accessed and shared information online. Today, the internet connects billions of users worldwide, enabling communication, commerce, education,",
+      "To answer the question, I'll look for the word \"OMICRON\" in the given text:\n\nThe recovery phrase for account OMICRON is \"3"
+    ],
+    "chunk_influences": [
+      {
+        "chunk_index": 0,
+        "start_token": 0,
+        "end_token": 256,
+        "semantic_similarity": 0.919499,
+        "influence_score": 0.080501,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 1,
+        "start_token": 256,
+        "end_token": 512,
+        "semantic_similarity": 0.765235,
+        "influence_score": 0.234765,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 2,
+        "start_token": 512,
+        "end_token": 768,
+        "semantic_similarity": 0.949836,
+        "influence_score": 0.050164,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 3,
+        "start_token": 768,
+        "end_token": 1024,
+        "semantic_similarity": 0.814803,
+        "influence_score": 0.185197,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 4,
+        "start_token": 1024,
+        "end_token": 1280,
+        "semantic_similarity": 0.6013,
+        "influence_score": 0.3987,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 5,
+        "start_token": 1280,
+        "end_token": 1536,
+        "semantic_similarity": 0.003048,
+        "influence_score": 0.996952,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 6,
+        "start_token": 1536,
+        "end_token": 1538,
+        "semantic_similarity": 0.863209,
+        "influence_score": 0.136791,
+        "logprob_drop": 0.0
+      }
+    ],
+    "eucr": {
+      "0.01": 1.0,
+      "0.05": 1.0,
+      "0.1": 0.7143,
+      "0.2": 0.4286
+    },
+    "pwup": {
+      "B": 0.1513,
+      "M": 0.3044,
+      "E": 0.5443
+    },
+    "gud": 0.320288,
+    "profile": [
+      {
+        "chunk_index": -1,
+        "wall_time_s": 3.9824,
+        "peak_vram_mb": 3203.79
+      },
+      {
+        "chunk_index": 0,
+        "wall_time_s": 1.3352,
+        "peak_vram_mb": 3180.55
+      },
+      {
+        "chunk_index": 1,
+        "wall_time_s": 0.4455,
+        "peak_vram_mb": 3180.56
+      },
+      {
+        "chunk_index": 2,
+        "wall_time_s": 0.4461,
+        "peak_vram_mb": 3180.56
+      },
+      {
+        "chunk_index": 3,
+        "wall_time_s": 0.4482,
+        "peak_vram_mb": 3180.56
+      },
+      {
+        "chunk_index": 4,
+        "wall_time_s": 0.4602,
+        "peak_vram_mb": 3180.56
+      },
+      {
+        "chunk_index": 5,
+        "wall_time_s": 0.4545,
+        "peak_vram_mb": 3180.56
+      },
+      {
+        "chunk_index": 6,
+        "wall_time_s": 0.789,
+        "peak_vram_mb": 3203.64
+      }
+    ]
+  }
+]

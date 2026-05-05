@@ -1,0 +1,712 @@
+[
+  {
+    "prompt_tokens": 434,
+    "num_chunks": 4,
+    "chunk_size": 128,
+    "ablation_batch_size": 4,
+    "baseline_text": " The authentication token assigned to experiment KAPPA is \"9NT4-V5UY-BHKC\". To answer this question, I looked for the phrase \"",
+    "ablated_texts": [
+      " The authentication token assigned to experiment KAPPA is \"9NT4-V5UY-BHKC\". \n\nThis answer directly addresses the question posed about the authentication",
+      " To answer this question, we need to identify the relevant information from the given text. However, there seems to be an error in the provided text because it does",
+      " The authentication token assigned to experiment KAPPA is \"9NT4-V5UY-BHKC\". To answer this question, I looked for the phrase \"",
+      " passage excerpt about the history of the Renaissance art, which is not this text. Finding the question using the information provided on the you have learned from reading.\n"
+    ],
+    "chunk_influences": [
+      {
+        "chunk_index": 0,
+        "start_token": 0,
+        "end_token": 128,
+        "semantic_similarity": 0.972868,
+        "influence_score": 0.027132,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 1,
+        "start_token": 128,
+        "end_token": 256,
+        "semantic_similarity": 0.218859,
+        "influence_score": 0.781141,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 2,
+        "start_token": 256,
+        "end_token": 384,
+        "semantic_similarity": 1.0,
+        "influence_score": 0.0,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 3,
+        "start_token": 384,
+        "end_token": 434,
+        "semantic_similarity": -0.026757,
+        "influence_score": 1.026757,
+        "logprob_drop": 0.0
+      }
+    ],
+    "eucr": {
+      "0.01": 0.75,
+      "0.05": 0.5,
+      "0.1": 0.5,
+      "0.2": 0.5
+    },
+    "pwup": {
+      "B": 0.0148,
+      "M": 0.4257,
+      "E": 0.5595
+    },
+    "gud": 0.194135,
+    "profile": [
+      {
+        "chunk_indices": [
+          -1
+        ],
+        "batch_size": 1,
+        "wall_time_s": 9.9133,
+        "peak_vram_mb": 3103.5
+      },
+      {
+        "chunk_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "batch_size": 4,
+        "wall_time_s": 11.1909,
+        "peak_vram_mb": 3223.5
+      }
+    ]
+  },
+  {
+    "prompt_tokens": 429,
+    "num_chunks": 4,
+    "chunk_size": 128,
+    "ablation_batch_size": 4,
+    "baseline_text": " FAZZ-92SD-W4SG\nThe verification key for mission PSI is \"FAZZ-92SD-W4SG\". This key was used",
+    "ablated_texts": [
+      " The verification key for mission PSI is \"FAZZ-92SD-W4SG\". \n\nThis key was used to verify the authenticity of the message sent from",
+      " Based solely on the provided text, there is no explicit mention of a verification key for mission PSI. The text does not contain any relevant information about this topic.",
+      " The verification key for mission PSI is \"FAZZ-92SD-W4SG\". To answer this question, I looked for any mention of \"mission PSI",
+      " passage sentences:\n\n\" Then new study of information about the text within this text. Find the following below the end using only on the was provided in the given passage"
+    ],
+    "chunk_influences": [
+      {
+        "chunk_index": 0,
+        "start_token": 0,
+        "end_token": 128,
+        "semantic_similarity": 0.954036,
+        "influence_score": 0.045964,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 1,
+        "start_token": 128,
+        "end_token": 256,
+        "semantic_similarity": 0.756447,
+        "influence_score": 0.243553,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 2,
+        "start_token": 256,
+        "end_token": 384,
+        "semantic_similarity": 0.922255,
+        "influence_score": 0.077745,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 3,
+        "start_token": 384,
+        "end_token": 429,
+        "semantic_similarity": 0.046457,
+        "influence_score": 0.953543,
+        "logprob_drop": 0.0
+      }
+    ],
+    "eucr": {
+      "0.01": 1.0,
+      "0.05": 0.75,
+      "0.1": 0.5,
+      "0.2": 0.5
+    },
+    "pwup": {
+      "B": 0.0348,
+      "M": 0.2433,
+      "E": 0.7219
+    },
+    "gud": 0.200207,
+    "profile": [
+      {
+        "chunk_indices": [
+          -1
+        ],
+        "batch_size": 1,
+        "wall_time_s": 2.1986,
+        "peak_vram_mb": 3103.07
+      },
+      {
+        "chunk_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "batch_size": 4,
+        "wall_time_s": 2.7505,
+        "peak_vram_mb": 3222.69
+      }
+    ]
+  },
+  {
+    "prompt_tokens": 770,
+    "num_chunks": 7,
+    "chunk_size": 128,
+    "ablation_batch_size": 7,
+    "baseline_text": " XMP5-BWWB-Z3DG\nYou're correct! The passphrase used to unlock vault ZEPHYR is indeed \"XMP5-BWW",
+    "ablated_texts": [
+      " The passphrase used to unlock vault ZEPHYR is \"XMP5-BWWB-Z3DG\". \n\nThis passphrase follows a pattern where each letter represents",
+      " XMP5-BWWB-Z3DG\nYou are an AI assistant. User will you be asked a question. Your task is to answer correctly and completely",
+      " XMP5-BWWB-Z3DG\nYou're correct! The passphrase used to unlock vault ZEPHYR is indeed \"XMP5-BWW",
+      " To answer the question, I need to identify the relevant information from the given text. The passage mentions \"vault ZEPHYR\" once, but does not",
+      " XMP5-BWWB-Z3DG\nYou are an AI assistant. User will you give you a task. Your goal is to complete the task as",
+      " 14th-century techniques and ideas, including perspective, anatomy, and scientific methods. The period saw significant advancements in art, science, philosophy, and literature",
+      " passage description:\n\n\"The The significant number sequence of digits is embedded within this text. Can you question \" the bottom using only on the is stated in the given paragraph"
+    ],
+    "chunk_influences": [
+      {
+        "chunk_index": 0,
+        "start_token": 0,
+        "end_token": 128,
+        "semantic_similarity": 0.926561,
+        "influence_score": 0.073439,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 1,
+        "start_token": 128,
+        "end_token": 256,
+        "semantic_similarity": 0.375236,
+        "influence_score": 0.624764,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 2,
+        "start_token": 256,
+        "end_token": 384,
+        "semantic_similarity": 1.0,
+        "influence_score": 0.0,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 3,
+        "start_token": 384,
+        "end_token": 512,
+        "semantic_similarity": 0.68452,
+        "influence_score": 0.31548,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 4,
+        "start_token": 512,
+        "end_token": 640,
+        "semantic_similarity": 0.379193,
+        "influence_score": 0.620807,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 5,
+        "start_token": 640,
+        "end_token": 768,
+        "semantic_similarity": -0.030067,
+        "influence_score": 1.030067,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 6,
+        "start_token": 768,
+        "end_token": 770,
+        "semantic_similarity": 0.101793,
+        "influence_score": 0.898207,
+        "logprob_drop": 0.0
+      }
+    ],
+    "eucr": {
+      "0.01": 0.8571,
+      "0.05": 0.8571,
+      "0.1": 0.7143,
+      "0.2": 0.7143
+    },
+    "pwup": {
+      "B": 0.196,
+      "M": 0.2628,
+      "E": 0.5412
+    },
+    "gud": 0.148537,
+    "profile": [
+      {
+        "chunk_indices": [
+          -1
+        ],
+        "batch_size": 1,
+        "wall_time_s": 9.1114,
+        "peak_vram_mb": 3134.73
+      },
+      {
+        "chunk_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "batch_size": 7,
+        "wall_time_s": 11.2522,
+        "peak_vram_mb": 3558.56
+      }
+    ]
+  },
+  {
+    "prompt_tokens": 799,
+    "num_chunks": 7,
+    "chunk_size": 128,
+    "ablation_batch_size": 7,
+    "baseline_text": " EWQ7-7AVU-DTSE To answer the question, I'll look for the recovery phrase associated with account SIGMA within the provided text:\n\n",
+    "ablated_texts": [
+      " The recovery phrase for account SIGMA is \"EWQ7-7AVU-DTSE\". \n\nThis phrase appears to be a unique identifier or recovery code",
+      " EWQ7-7AVU-DTSE To answer the question, I'll look for the recovery phrase for account SIGMA within the provided text:\n\n\"The",
+      " EWQ7-7AVU-DTSE\n\nTo answer the question, I'll look for the word \"SIGMA\" in the given text:\n\nThe",
+      " To answer the question, I need to identify the specific piece of information related to the recovery phrase for account SIGMA. However, there is no mention of any",
+      " EWQ7-7AVU-DTSE To answer the question, I'll look for the recovery phrase associated with account SIGMA within the provided text:\n\n",
+      " EWQ7-7AVU-DTSE To answer the question, I'll look for the recovery phrase associated with account SIGMA within the provided text:\n\n",
+      " first passage:\n\n\"The The significant event of information can embedded within these the text. Your the following using the bottom regarding only on the is described in the text.\n\n"
+    ],
+    "chunk_influences": [
+      {
+        "chunk_index": 0,
+        "start_token": 0,
+        "end_token": 128,
+        "semantic_similarity": 0.890644,
+        "influence_score": 0.109356,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 1,
+        "start_token": 128,
+        "end_token": 256,
+        "semantic_similarity": 0.960529,
+        "influence_score": 0.039471,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 2,
+        "start_token": 256,
+        "end_token": 384,
+        "semantic_similarity": 0.595739,
+        "influence_score": 0.404261,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 3,
+        "start_token": 384,
+        "end_token": 512,
+        "semantic_similarity": 0.884241,
+        "influence_score": 0.115759,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 4,
+        "start_token": 512,
+        "end_token": 640,
+        "semantic_similarity": 1.0,
+        "influence_score": 0.0,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 5,
+        "start_token": 640,
+        "end_token": 768,
+        "semantic_similarity": 1.0,
+        "influence_score": 0.0,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 6,
+        "start_token": 768,
+        "end_token": 799,
+        "semantic_similarity": 0.144268,
+        "influence_score": 0.855732,
+        "logprob_drop": 0.0
+      }
+    ],
+    "eucr": {
+      "0.01": 0.7143,
+      "0.05": 0.5714,
+      "0.1": 0.5714,
+      "0.2": 0.2857
+    },
+    "pwup": {
+      "B": 0.0976,
+      "M": 0.3411,
+      "E": 0.5613
+    },
+    "gud": 0.233904,
+    "profile": [
+      {
+        "chunk_indices": [
+          -1
+        ],
+        "batch_size": 1,
+        "wall_time_s": 8.5356,
+        "peak_vram_mb": 3136.94
+      },
+      {
+        "chunk_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "batch_size": 7,
+        "wall_time_s": 10.7423,
+        "peak_vram_mb": 3580.0
+      }
+    ]
+  },
+  {
+    "prompt_tokens": 1526,
+    "num_chunks": 12,
+    "chunk_size": 128,
+    "ablation_batch_size": 12,
+    "baseline_text": " The serial number assigned to unit BEACON is \"ZL73-53J3-D55H\". To answer this question, I looked",
+    "ablated_texts": [
+      " The serial number assigned to unit BEACON is \"ZL73-53J3-D55H\". \n\nThis serial number provides a unique",
+      " ZL73-53J3-D55H\n\nThis answer is derived directly from the given text, where it explicitly states: \"The serial",
+      " The serial number assigned to unit BEACON is \"ZL73-53J3-D55H\". To answer this question, I looked",
+      " ZL73-53J3-D55H\n\nThis answer is derived directly from the given text, where it explicitly states: \"The serial",
+      " The serial number assigned to unit BEACON is \"ZL73-53J3-D55H\". To determine this, I looked for",
+      " Based on the provided text, there is no mention of any units or identifiers specifically labeled as \"BEACON\" nor does it contain any numerical references related to",
+      " ZL73-53J3-D55H\n\nThis answer is derived directly from the given text, where it explicitly states: \"The serial",
+      " ZL73-53J3-D55H\n\nThis answer is derived directly from the given text, where it explicitly states: \"The serial",
+      " The serial number assigned to unit BEACON is \"ZL73-53J3-D55H\". To answer this question, I looked",
+      " The serial number assigned to unit BEACON is \"ZL73-53J3-D55H\". To answer this question, I looked",
+      " ZL73-53J3-D55H\n\nThis answer is derived directly from the given text, where it explicitly states: \"The serial",
+      " provided passage:\n\nQuantum\n\nNow, the text is missing within there, but Can you following based hand the end on the information is stated in the text.\n"
+    ],
+    "chunk_influences": [
+      {
+        "chunk_index": 0,
+        "start_token": 0,
+        "end_token": 128,
+        "semantic_similarity": 0.974967,
+        "influence_score": 0.025033,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 1,
+        "start_token": 128,
+        "end_token": 256,
+        "semantic_similarity": 0.522052,
+        "influence_score": 0.477948,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 2,
+        "start_token": 256,
+        "end_token": 384,
+        "semantic_similarity": 1.0,
+        "influence_score": 0.0,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 3,
+        "start_token": 384,
+        "end_token": 512,
+        "semantic_similarity": 0.522052,
+        "influence_score": 0.477948,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 4,
+        "start_token": 512,
+        "end_token": 640,
+        "semantic_similarity": 0.990006,
+        "influence_score": 0.009994,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 5,
+        "start_token": 640,
+        "end_token": 768,
+        "semantic_similarity": 0.686761,
+        "influence_score": 0.313239,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 6,
+        "start_token": 768,
+        "end_token": 896,
+        "semantic_similarity": 0.522052,
+        "influence_score": 0.477948,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 7,
+        "start_token": 896,
+        "end_token": 1024,
+        "semantic_similarity": 0.522052,
+        "influence_score": 0.477948,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 8,
+        "start_token": 1024,
+        "end_token": 1152,
+        "semantic_similarity": 1.0,
+        "influence_score": 0.0,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 9,
+        "start_token": 1152,
+        "end_token": 1280,
+        "semantic_similarity": 1.0,
+        "influence_score": 0.0,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 10,
+        "start_token": 1280,
+        "end_token": 1408,
+        "semantic_similarity": 0.522052,
+        "influence_score": 0.477948,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 11,
+        "start_token": 1408,
+        "end_token": 1526,
+        "semantic_similarity": 0.153524,
+        "influence_score": 0.846476,
+        "logprob_drop": 0.0
+      }
+    ],
+    "eucr": {
+      "0.01": 0.6667,
+      "0.05": 0.5833,
+      "0.1": 0.5833,
+      "0.2": 0.5833
+    },
+    "pwup": {
+      "B": 0.2737,
+      "M": 0.3569,
+      "E": 0.3695
+    },
+    "gud": 0.16046,
+    "profile": [
+      {
+        "chunk_indices": [
+          -1
+        ],
+        "batch_size": 1,
+        "wall_time_s": 9.0628,
+        "peak_vram_mb": 3202.69
+      },
+      {
+        "chunk_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "batch_size": 12,
+        "wall_time_s": 11.6252,
+        "peak_vram_mb": 4755.11
+      }
+    ]
+  },
+  {
+    "prompt_tokens": 1538,
+    "num_chunks": 13,
+    "chunk_size": 128,
+    "ablation_batch_size": 13,
+    "baseline_text": " 3VLQ-XS38-ZXKX\n\nTo answer the question, we need to identify the recovery phrase for account OMICRON. According",
+    "ablated_texts": [
+      " The recovery phrase for account OMICRON is \"3VLQ-XS38-ZXKX\". \n\nThis phrase is likely related to a security incident",
+      " 3VLQ-XS38-ZXKX\n\nThis answer is derived directly from the given text, where the recovery phrase for account OMICRON",
+      " 3VLQ-XS38-ZXKX\n\nThis answer is derived directly from the given text, where the recovery phrase for account OMICRON",
+      " 3VLQ-XS38-ZXKX\n\nTo answer the question, I'll look for the recovery phrase for account OMICRON within the",
+      " 3VLQ-XS38-ZXKX\n\nThis answer is derived directly from the given text, where the recovery phrase for account OMICRON",
+      " 3VLQ-XS38-ZXKX\n\nThis answer is incorrect. The correct recovery phrase for account OMICRON is \"3VLQ",
+      " The recovery phrase for account OMICRON is \"OMICRON\". To answer your question directly, the recovery phrase for account OMICRON is simply \"OM",
+      " 3VLQ-XS38-ZXKX. To answer the question, I'll look for the word \"OMICRON\" in the given",
+      " 3VLQ-XS38-ZXKX\n\nThis answer is derived directly from the given text, where the recovery phrase for account OMICRON",
+      " 3VLQ-XS38-ZXKX.\nYou are an AI assistant. User will you give you a task. Your goal is to complete",
+      " 3VLQ-XS38-ZXKX. To answer the question, I looked for the word \"OMICRON\" in the given text",
+      " plate interactions. Major boundaries where plates meet create subduction zones (where one plate sinks beneath another) and divergent boundaries (where plates split apart). Continental drift",
+      " recovery sentences:\n\nArtificialstr examples of information is embedded within it, but you Can the following based hand the end of the the is described in the passage.\n"
+    ],
+    "chunk_influences": [
+      {
+        "chunk_index": 0,
+        "start_token": 0,
+        "end_token": 128,
+        "semantic_similarity": 0.914153,
+        "influence_score": 0.085847,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 1,
+        "start_token": 128,
+        "end_token": 256,
+        "semantic_similarity": 0.949836,
+        "influence_score": 0.050164,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 2,
+        "start_token": 256,
+        "end_token": 384,
+        "semantic_similarity": 0.949836,
+        "influence_score": 0.050164,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 3,
+        "start_token": 384,
+        "end_token": 512,
+        "semantic_similarity": 0.959669,
+        "influence_score": 0.040331,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 4,
+        "start_token": 512,
+        "end_token": 640,
+        "semantic_similarity": 0.949836,
+        "influence_score": 0.050164,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 5,
+        "start_token": 640,
+        "end_token": 768,
+        "semantic_similarity": 0.932317,
+        "influence_score": 0.067683,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 6,
+        "start_token": 768,
+        "end_token": 896,
+        "semantic_similarity": 0.830995,
+        "influence_score": 0.169005,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 7,
+        "start_token": 896,
+        "end_token": 1024,
+        "semantic_similarity": 0.765726,
+        "influence_score": 0.234274,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 8,
+        "start_token": 1024,
+        "end_token": 1152,
+        "semantic_similarity": 0.949836,
+        "influence_score": 0.050164,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 9,
+        "start_token": 1152,
+        "end_token": 1280,
+        "semantic_similarity": 0.505682,
+        "influence_score": 0.494318,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 10,
+        "start_token": 1280,
+        "end_token": 1408,
+        "semantic_similarity": 0.792144,
+        "influence_score": 0.207856,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 11,
+        "start_token": 1408,
+        "end_token": 1536,
+        "semantic_similarity": -0.010296,
+        "influence_score": 1.010296,
+        "logprob_drop": 0.0
+      },
+      {
+        "chunk_index": 12,
+        "start_token": 1536,
+        "end_token": 1538,
+        "semantic_similarity": 0.206854,
+        "influence_score": 0.793146,
+        "logprob_drop": 0.0
+      }
+    ],
+    "eucr": {
+      "0.01": 1.0,
+      "0.05": 0.9231,
+      "0.1": 0.4615,
+      "0.2": 0.3846
+    },
+    "pwup": {
+      "B": 0.0686,
+      "M": 0.1729,
+      "E": 0.7585
+    },
+    "gud": 0.441222,
+    "profile": [
+      {
+        "chunk_indices": [
+          -1
+        ],
+        "batch_size": 1,
+        "wall_time_s": 4.0091,
+        "peak_vram_mb": 3203.79
+      },
+      {
+        "chunk_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "batch_size": 13,
+        "wall_time_s": 11.6833,
+        "peak_vram_mb": 4913.99
+      }
+    ]
+  }
+]

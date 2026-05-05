@@ -1,0 +1,80 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "chunk_size": 128,
+  "max_new_tokens": 32,
+  "ablation_method": "attention_mask_batched",
+  "examples": [
+    {
+      "index": 0,
+      "prompt_tokens": 434,
+      "num_chunks": 4,
+      "total_ablation_runs": 5,
+      "input_tokens_per_run": 434,
+      "ablation_batch_size": 4,
+      "total_ablation_batches": 1,
+      "total_wall_time_s": 21.1,
+      "mean_wall_time_s": 4.2208,
+      "max_peak_vram_mb": 3223.5
+    },
+    {
+      "index": 1,
+      "prompt_tokens": 429,
+      "num_chunks": 4,
+      "total_ablation_runs": 5,
+      "input_tokens_per_run": 429,
+      "ablation_batch_size": 4,
+      "total_ablation_batches": 1,
+      "total_wall_time_s": 4.95,
+      "mean_wall_time_s": 0.9898,
+      "max_peak_vram_mb": 3222.69
+    },
+    {
+      "index": 2,
+      "prompt_tokens": 770,
+      "num_chunks": 7,
+      "total_ablation_runs": 8,
+      "input_tokens_per_run": 770,
+      "ablation_batch_size": 7,
+      "total_ablation_batches": 1,
+      "total_wall_time_s": 20.36,
+      "mean_wall_time_s": 2.5454,
+      "max_peak_vram_mb": 3558.56
+    },
+    {
+      "index": 3,
+      "prompt_tokens": 799,
+      "num_chunks": 7,
+      "total_ablation_runs": 8,
+      "input_tokens_per_run": 799,
+      "ablation_batch_size": 7,
+      "total_ablation_batches": 1,
+      "total_wall_time_s": 19.28,
+      "mean_wall_time_s": 2.4097,
+      "max_peak_vram_mb": 3580.0
+    },
+    {
+      "index": 4,
+      "prompt_tokens": 1526,
+      "num_chunks": 12,
+      "total_ablation_runs": 13,
+      "input_tokens_per_run": 1526,
+      "ablation_batch_size": 12,
+      "total_ablation_batches": 1,
+      "total_wall_time_s": 20.69,
+      "mean_wall_time_s": 1.5914,
+      "max_peak_vram_mb": 4755.11
+    },
+    {
+      "index": 5,
+      "prompt_tokens": 1538,
+      "num_chunks": 13,
+      "total_ablation_runs": 14,
+      "input_tokens_per_run": 1538,
+      "ablation_batch_size": 13,
+      "total_ablation_batches": 1,
+      "total_wall_time_s": 15.69,
+      "mean_wall_time_s": 1.1209,
+      "max_peak_vram_mb": 4913.99
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "chunk_size": 128,
+  "max_new_tokens": 32,
+  "examples": [
+    {
+      "index": 0,
+      "prompt_tokens": 434,
+      "num_chunks": 4,
+      "total_ablation_runs": 5,
+      "total_wall_time_s": 29.03,
+      "mean_wall_time_s": 5.81,
+      "max_peak_vram_mb": 3103.5
+    },
+    {
+      "index": 1,
+      "prompt_tokens": 429,
+      "num_chunks": 4,
+      "total_ablation_runs": 5,
+      "total_wall_time_s": 5.66,
+      "mean_wall_time_s": 1.13,
+      "max_peak_vram_mb": 3103.07
+    },
+    {
+      "index": 2,
+      "prompt_tokens": 770,
+      "num_chunks": 7,
+      "total_ablation_runs": 8,
+      "total_wall_time_s": 21.43,
+      "mean_wall_time_s": 2.68,
+      "max_peak_vram_mb": 3135.69
+    },
+    {
+      "index": 3,
+      "prompt_tokens": 799,
+      "num_chunks": 7,
+      "total_ablation_runs": 8,
+      "total_wall_time_s": 19.65,
+      "mean_wall_time_s": 2.46,
+      "max_peak_vram_mb": 3136.99
+    },
+    {
+      "index": 4,
+      "prompt_tokens": 1526,
+      "num_chunks": 12,
+      "total_ablation_runs": 13,
+      "total_wall_time_s": 26.16,
+      "mean_wall_time_s": 2.01,
+      "max_peak_vram_mb": 3202.69
+    },
+    {
+      "index": 5,
+      "prompt_tokens": 1538,
+      "num_chunks": 13,
+      "total_ablation_runs": 14,
+      "total_wall_time_s": 11.22,
+      "mean_wall_time_s": 0.8,
+      "max_peak_vram_mb": 3203.79
+    }
+  ]
+}
